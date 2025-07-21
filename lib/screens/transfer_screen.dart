@@ -17,7 +17,7 @@ class _TransferScreenState extends State<TransferScreen> {
   String _tokenBalance = '0';
   String _currentAddress = '';
   bool _isLoading = false;
-  bool _isTransferringETH = true; // Toggle between ETH and Token transfer
+  bool _isTransferringETH = true; 
 
   @override
   Widget build(BuildContext context) {
